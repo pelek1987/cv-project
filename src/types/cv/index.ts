@@ -1,6 +1,6 @@
 interface Experience {
     description: string;
-    years: number;
+    year: number;
 }
 
 export interface CVData {
@@ -8,6 +8,6 @@ export interface CVData {
     lastName: string;
     photo: string;
     position: string;
-    experiences: Experience[];
-    education: [string];
+    experience: Experience[];
+    education: string[];
 }
