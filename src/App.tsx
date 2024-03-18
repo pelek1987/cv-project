@@ -6,9 +6,7 @@ const App = () => {
 
   return (
     <main className={'cv-main'}>
-        <Header>
-            <h1>CV - {cvData.name} {cvData.lastName}</h1>
-        </Header>
+        <Header>CV - {cvData.name} {cvData.lastName}</Header>
         <aside className={'cv-personal-info'}>
             <h2>Personal info:</h2>
             <img className={'cv-photo'} src={cvData.photo} alt={`${cvData.name} ${cvData.lastName} - profile photo`}/>
