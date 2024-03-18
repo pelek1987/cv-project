@@ -12,12 +12,6 @@
   grid-auto-columns: 250px 1fr;
 }
 
-.cv-header {
-  grid-area: header;
-  padding: $main-gap;
-  text-align: center;
-}
-
 .cv-personal-info {
   grid-area: personal;
   padding: $main-gap;

@@ -1,13 +1,14 @@
 import './App.scss';
 import {cvData} from "./types/data";
+import {Header} from "./components";
 
 const App = () => {
 
   return (
     <main className={'cv-main'}>
-        <header className={'cv-header'}>
+        <Header>
             <h1>CV - {cvData.name} {cvData.lastName}</h1>
-        </header>
+        </Header>
         <aside className={'cv-personal-info'}>
             <h2>Personal info:</h2>
             <img className={'cv-photo'} src={cvData.photo} alt={`${cvData.name} ${cvData.lastName} - profile photo`}/>
