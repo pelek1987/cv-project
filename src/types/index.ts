@@ -1,1 +1,1 @@
-export type { CVData } from './cv'
+export type * from './cv'

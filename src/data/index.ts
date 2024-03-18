@@ -1,4 +1,4 @@
-import {CVData} from "../cv";
+import {CVData} from "../types";
 
 export const cvData: CVData = {
     name: 'Paweł',

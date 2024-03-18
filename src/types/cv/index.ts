@@ -11,3 +11,5 @@ export interface CVData {
     experience: Experience[];
     education: string[];
 }
+
+export type PersonalData = Omit<CVData, 'experience' | 'education'>

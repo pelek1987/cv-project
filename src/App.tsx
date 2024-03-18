@@ -1,18 +1,20 @@
 import './App.scss';
-import {cvData} from "./types/data";
-import {Header} from "./components";
+import {cvData} from "./data";
+import {Header, PersonalInfo} from "./components";
 
 const App = () => {
 
   return (
     <main className={'cv-main'}>
         <Header>CV - {cvData.name} {cvData.lastName}</Header>
-        <aside className={'cv-personal-info'}>
-            <h2>Personal info:</h2>
-            <img className={'cv-photo'} src={cvData.photo} alt={`${cvData.name} ${cvData.lastName} - profile photo`}/>
-            <h3>{cvData.name} {cvData.lastName}</h3>
-            <strong>{cvData.position}</strong>
-        </aside>
+        <PersonalInfo
+            data={{
+                name: cvData.name,
+                lastName: cvData.lastName,
+                position: cvData.position,
+                photo: cvData.photo,
+            }}
+        />
         <section className={'cv-details'}>
             <div className={'cv-details__experience'}>
                 <h2>Experience</h2>
