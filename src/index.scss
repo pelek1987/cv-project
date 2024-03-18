@@ -1,0 +1,17 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gill Sans sans-serif;
+}
+
+ul {
+  margin-bottom: $main-gap;
+  list-style-type: none;
+}
+
+h2 {
+  margin-bottom: $main-gap;
+}
