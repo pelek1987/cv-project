@@ -11,19 +11,3 @@
   ;
   grid-auto-columns: 250px 1fr;
 }
-
-.cv-details {
-  grid-area: details;
-  padding: $main-gap;
-  &__experience {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  &__education {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}

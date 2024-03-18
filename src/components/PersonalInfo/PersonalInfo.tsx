@@ -1,8 +1,8 @@
-import {PersonalData} from "../../types";
+import {CVData} from "../../types";
 import './PersonalInfo.scss';
 
 type Props = {
-    data: PersonalData;
+    data: Omit<CVData, 'experience' | 'education'>;
 }
 export const PersonalInfo = ({ data }: Props) => {
     return (

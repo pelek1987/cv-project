@@ -1,1 +1,1 @@
-export {PersonalInfo} from './PersonalInfo.tsx'
+export {PersonalInfo} from './PersonalInfo'
